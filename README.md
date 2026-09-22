@@ -10,6 +10,9 @@ half. The host half is a deliberate no-op that exists only so the package
 declares `dsh.bundle` and the harness mounts the client bundle. Installing it
 appends a small pill to the dock that folds or unfolds the whole row.
 
+<img width="826" height="294" alt="firefox_Vp7bLEmWdO" src="https://github.com/user-attachments/assets/6983fb62-9e8a-41a8-9720-ffd97dfd767b" />
+
+
 ## Why it exists
 
 The dock is useful, but over a long session it is a persistent row of
