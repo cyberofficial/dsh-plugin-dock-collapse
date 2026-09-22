@@ -77,3 +77,8 @@ flex container, so it stays visible while the slot's chips are hidden.
 ```sh
 npm test   # loads the bundle in jsdom and drives the real click/fold/persist path
 ```
+
+## License
+
+MIT — do whatever you like with it; no warranty, no liability. See the
+[MIT license text](https://opensource.org/licenses/MIT).
