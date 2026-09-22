@@ -1,0 +1,9 @@
+# Profile patch layer shipped by dsh-plugin-dock-collapse itself: installing
+# this package as a profile dependency (it declares `dsh.bundle`) appends this
+# layer automatically, mounting the (trivial) host plugin. The row's `name` is
+# the package name so the client module host pairs it with this package's
+# `dsh.client` browser bundle — which is where all the real work happens; the
+# collapse feature is a pure DOM augmentation with no host-side state.
+- insert:
+    - id: plugin-dock-collapse
+      name: dsh-plugin-dock-collapse
